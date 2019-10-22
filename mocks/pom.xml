@@ -31,6 +31,7 @@
         <module>personfeed-mock</module>
         <module>sigrun-mock</module>
         <module>tps-mock</module>
+        <module>unleash-double</module>
     </modules>
 
     <dependencies>

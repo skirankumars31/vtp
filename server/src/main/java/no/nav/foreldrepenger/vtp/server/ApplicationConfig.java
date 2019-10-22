@@ -22,6 +22,7 @@ import javax.ws.rs.ext.Provider;
 
 import no.nav.foreldrepenger.vtp.server.api.kafka.KafkaRestTjeneste;
 
+import no.nav.foreldrepenger.vtp.unleash.UnleashRestDouble;
 import no.nav.vtp.DummyRestTjeneste;
 import no.nav.vtp.DummyRestTjenesteBoolean;
 import org.slf4j.Logger;
@@ -83,6 +84,7 @@ public class ApplicationConfig extends Application {
         classes.add(FpFormidlingMock.class);
         classes.add(DummyRestTjeneste.class);
         classes.add(DummyRestTjenesteBoolean.class);
+        classes.add(UnleashRestDouble.class);
 
         // tekniske ting
         classes.add(Oauth2RestService.class);
