@@ -21,6 +21,7 @@
         <module>infotrygdfeed-mock</module>
         <module>inntekt-mock</module>
         <module>joark-mock</module>
+        <module>saf-mock</module>
         <module>kafka-embedded-mock</module>
         <module>kodeverk-mock</module>
         <module>ldap-mock</module>
