@@ -21,10 +21,5 @@
 			<groupId>no.nav.tjenestespesifikasjoner</groupId>
 			<artifactId>nav-arbeidsforhold-v3-tjenestespesifikasjon</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>no.nav.foreldrepenger.vtp</groupId>
-			<artifactId>core</artifactId>
-		</dependency>
-
 	</dependencies>
 </project>
