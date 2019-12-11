@@ -4,7 +4,7 @@
 			{
 				"fom": "now() - P2Y",
 				"tom": "now()",
-				"beløp": 40000,
+				"beløp": 20000,
 				"orgnr": "910909088",
 				"type": "Lønnsinntekt",
 				"fordel": "kontantytelse",

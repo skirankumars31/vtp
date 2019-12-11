@@ -3,7 +3,16 @@
 		"inntektsperioder": [
 			{
 				"fom": "now() - P2Y",
-				"tom": "now()",
+				"tom": "now() - P9M",
+				"beløp": 10000,
+				"orgnr": "910909088",
+				"type": "Lønnsinntekt",
+				"fordel": "kontantytelse",
+				"beskrivelse": "fastloenn"
+			},
+			{
+				"fom": "now() - P9M",
+				"tom": "now() - P5M",
 				"beløp": 40000,
 				"orgnr": "910909088",
 				"type": "Lønnsinntekt",
@@ -11,7 +20,34 @@
 				"beskrivelse": "fastloenn"
 			},
 			{
+				"fom": "now() - P5M",
+				"tom": "now()",
+				"beløp": 10000,
+				"orgnr": "910909088",
+				"type": "Lønnsinntekt",
+				"fordel": "kontantytelse",
+				"beskrivelse": "fastloenn"
+			},
+			{
 				"fom": "now() - P2Y",
+				"tom": "now() - P8M",
+				"beløp": 10000,
+				"orgnr": "973861778",
+				"type": "Lønnsinntekt",
+				"fordel": "kontantytelse",
+				"beskrivelse": "fastloenn"
+			},
+			{
+				"fom": "now() - P8M",
+				"tom": "now() - P5M",
+				"beløp": 100000,
+				"orgnr": "973861778",
+				"type": "Lønnsinntekt",
+				"fordel": "kontantytelse",
+				"beskrivelse": "fastloenn"
+			},
+			{
+				"fom": "now() - P5M",
 				"tom": "now()",
 				"beløp": 10000,
 				"orgnr": "973861778",
