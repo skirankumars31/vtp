@@ -1,13 +1,13 @@
 package no.nav.foreldrepenger.vtp.testmodell;
 
-import no.nav.foreldrepenger.vtp.autotest.scenario.inntektytelse.inntektkomponent.InntektskomponentModell;
-import no.nav.foreldrepenger.vtp.autotest.scenario.inntektytelse.inntektkomponent.Inntektsperiode;
 import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.InntektYtelseModell;
 import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.RelatertYtelseTema;
 import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.arena.*;
 import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.infotrygd.*;
 import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.infotrygd.beregningsgrunnlag.*;
 import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.infotrygd.ytelse.InfotrygdYtelse;
+import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.inntektkomponent.InntektskomponentModell;
+import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.inntektkomponent.Inntektsperiode;
 import no.nav.foreldrepenger.vtp.testmodell.repo.Testscenario;
 import no.nav.foreldrepenger.vtp.testmodell.repo.TestscenarioImpl;
 import no.nav.foreldrepenger.vtp.testmodell.repo.impl.BasisdataProviderFileImpl;

@@ -1,5 +1,11 @@
 package no.nav.tjeneste.virksomhet.sak.v1;
 
+import no.nav.foreldrepenger.vtp.felles.ConversionUtils;
+import no.nav.foreldrepenger.vtp.testmodell.personopplysning.PersonModell;
+import no.nav.tjeneste.virksomhet.sak.v1.binding.HentSakSakIkkeFunnet;
+import no.nav.tjeneste.virksomhet.sak.v1.feil.SakIkkeFunnet;
+import no.nav.tjeneste.virksomhet.sak.v1.informasjon.*;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -8,17 +14,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
-
-import no.nav.foreldrepenger.vtp.autotest.scenario.personopplysning.PersonModell;
-import no.nav.foreldrepenger.vtp.felles.ConversionUtils;
-import no.nav.tjeneste.virksomhet.sak.v1.binding.HentSakSakIkkeFunnet;
-import no.nav.tjeneste.virksomhet.sak.v1.feil.SakIkkeFunnet;
-import no.nav.tjeneste.virksomhet.sak.v1.informasjon.Aktoer;
-import no.nav.tjeneste.virksomhet.sak.v1.informasjon.Fagomraader;
-import no.nav.tjeneste.virksomhet.sak.v1.informasjon.Fagsystemer;
-import no.nav.tjeneste.virksomhet.sak.v1.informasjon.Person;
-import no.nav.tjeneste.virksomhet.sak.v1.informasjon.Sak;
-import no.nav.tjeneste.virksomhet.sak.v1.informasjon.Sakstyper;
 
 public class GsakRepo {
 

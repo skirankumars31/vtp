@@ -1,27 +1,23 @@
 package no.nav.foreldrepenger.vtp.server.api.kafka;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Map;
-import java.util.UUID;
-import java.util.concurrent.ExecutionException;
-
-import javax.ws.rs.*;
-import javax.ws.rs.core.Context;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
-
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import no.nav.foreldrepenger.vtp.autotest.kafka.KafkaTopicDto;
+import no.nav.foreldrepenger.vtp.kafkaembedded.LocalKafkaProducer;
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.admin.TopicListing;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import no.nav.foreldrepenger.vtp.kafkaembedded.LocalKafkaProducer;
-import no.nav.foreldrepenger.vtp.kafkaembedded.LocalKafkaServer;
+import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Map;
+import java.util.concurrent.ExecutionException;
 
 @Api(tags = "Kafka services")
 @Path("/api/kafka")

@@ -3,11 +3,10 @@ package no.nav.foreldrepenger.vtp.testmodell.inntektytelse;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
-import no.nav.foreldrepenger.vtp.autotest.scenario.inntektytelse.arbeidsforhold.ArbeidsforholdModell;
-import no.nav.foreldrepenger.vtp.autotest.scenario.inntektytelse.inntektkomponent.InntektskomponentModell;
+import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.arbeidsforhold.ArbeidsforholdModell;
 import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.arena.ArenaModell;
 import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.infotrygd.InfotrygdModell;
+import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.inntektkomponent.InntektskomponentModell;
 import no.nav.foreldrepenger.vtp.testmodell.inntektytelse.sigrun.SigrunModell;
 
 @JsonInclude(Include.NON_EMPTY)
