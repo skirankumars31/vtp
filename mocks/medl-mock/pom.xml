@@ -27,7 +27,6 @@
         <dependency>
             <groupId>no.nav.tjenester</groupId>
             <artifactId>medlemskapsunntak-api-v1</artifactId>
-            <version>1.0</version>
         </dependency>
 
         <!-- 3dje parts biblioteker -->

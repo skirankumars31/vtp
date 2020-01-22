@@ -26,6 +26,5 @@
 			<groupId>no.nav.foreldrepenger.vtp</groupId>
 			<artifactId>core</artifactId>
 		</dependency>
-
 	</dependencies>
 </project>

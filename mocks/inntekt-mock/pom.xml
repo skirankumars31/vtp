@@ -12,14 +12,13 @@
     <packaging>jar</packaging>
 
 	<dependencies>
-	           <dependency>
+        <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-http-spi</artifactId>
         </dependency>
         <dependency>
             <groupId>no.nav.tjenester</groupId>
             <artifactId>aordningen-inntektsinformasjon-v1</artifactId>
-            <version>1.4</version>
         </dependency>
         <dependency>
             <groupId>no.nav.tjenester.fim</groupId>
